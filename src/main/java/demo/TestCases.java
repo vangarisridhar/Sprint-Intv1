@@ -36,4 +36,17 @@ public class TestCases {
 
     }
 
+    
+    public void testCase02() {
+        System.out.println("Start Test case CountHyperlinks: testCase02");
+
+        // Navigate to google https://www.google.com/
+        CountHyperlinks ch = new CountHyperlinks(driver);
+       System.out.println("Number of links found are: "+ ch.searchForHyperlinks());
+        
+
+        System.out.println("end Test case CountHyperlinks: testCase02");
+
+    }
+
 }
