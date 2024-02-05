@@ -1,5 +1,6 @@
 package demo;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -51,31 +52,39 @@ public class TestCases {
 
     }
 
-    public void testCase05() throws InterruptedException {
-        System.out.println("Start Test case CountImageUrls: testCase05");
-
+    public void testCase03() throws InterruptedException {
+        System.out.println("Start Test case CountImageUrls: testCase03");
         // Navigate to google https://www.google.com/
         ImageUrls iu = new ImageUrls(driver);
         System.out.println("Number of links found are: " + iu.searchForImageUrls());
-
-        System.out.println("end Test case CountImageUrls: testCase05");
+        System.out.println("end Test case CountImageUrls: testCase03");
 
     }
 
 
-    public void testCase07() throws InterruptedException {
-        System.out.println("Start Test case NestedFramesText: testCase02");
-
+    public void testCase04() throws InterruptedException {
+        System.out.println("Start Test case NestedFramesText: testCase04");
         NestedFramesText nft= new NestedFramesText(driver);
         nft.searchForNestedFramesText();
-
-      //  System.out.println("Texts found on the page are: "+);
-
-
-
-
-        System.out.println("End Test case NestedFramesText: testCase02");
+        System.out.println("End Test case NestedFramesText: testCase04");
 
     }
+
+    public void testCase05() throws InterruptedException {
+        System.out.println("Start Test case searchForImdRating: testCase05");
+        ImdbRating ir= new ImdbRating(driver);
+        ir.searchForImdRating();
+        System.out.println("End Test case searchForImdRating: testCase05");
+
+    }
+
+    public void testCase06() throws InterruptedException, IOException {
+        System.out.println("Start Test case WindowHandle: testCase06");
+        WindowHandle wh= new WindowHandle(driver);
+        wh.searchForWindowHandle();
+        System.out.println("End Test case WindowHandle: testCase06");
+
+    }
+
 
 }
