@@ -86,5 +86,14 @@ public class TestCases {
 
     }
 
+    
+    public void testCase07() throws InterruptedException, IOException {
+        System.out.println("Start Test case LinkedinPost: testCase07");
+        PostOnLinkedin pol= new PostOnLinkedin(driver);
+        pol.linkedinpost();
+        System.out.println("End Test case LinkedinPost: testCase07");
+
+    }
+
 
 }
