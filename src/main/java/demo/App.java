@@ -17,13 +17,13 @@ public class App {
 
     //      tests.testCase01();
     //      tests.testCase02();
-    //     //for test case 3 the webpage is taking very long time to load  which is seen common issue with other learners and hence the code terminates with exception
-    //    // tests.testCase03();
+    //    for test case 3 the webpage is taking very long time to load  which is seen common issue with other learners and hence the code terminates with exception
+ tests.testCase03();
     //      tests.testCase04();
     //      tests.testCase05();
     //     tests.testCase06();
         //here password is confidential so didnot mention the original password in sendkeys
-        tests.testCase07();
+      //  tests.testCase07();
 
         // END Tests
 

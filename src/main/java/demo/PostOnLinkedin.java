@@ -22,7 +22,7 @@ public class PostOnLinkedin {
             // find the element input field for email  using the id "session_key" and enter the email
             driver.findElement(By.id(("session_key"))).sendKeys("vangarisridhar@gmail.com");
             // find the element password field using id "session_password" and enter the password
-            driver.findElement(By.id("session_password")).sendKeys("SRI!&)dhar123");
+            driver.findElement(By.id("session_password")).sendKeys("confidential");
             // find the Button element sign in using the xpath//button[@data-id='sign-in-form__submit-btn'] and click on it
             driver.findElement(By.xpath("//button[@data-id='sign-in-form__submit-btn']")).click();
             Thread.sleep(90000);//delay due to security check to solve the puzzle manually
