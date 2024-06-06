@@ -8,22 +8,12 @@ pipeline {
 
             }
         }
-        stage('clean') {
+        stage('clean compile and test') {
             steps {
-               bat 'mvn clean'
+            bat 'mvn clean compile test'
             }
         }
-        stage('compile') {
-            steps {
-                bat 'mvn compile'
-
-            }
-        }  stage('test') {
-            steps {
-               bat 'mvn test'
-
-            }
-        }
+     
 
   stage('notify') {
             steps {
