@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T06:09:28 IST" name="Suite" finished-at="2024-06-06T06:09:28 IST" duration-ms="67">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T06:09:28 IST" name="Test" finished-at="2024-06-06T06:09:28 IST" duration-ms="67">
+      <class name="hometask1.AppTest">
+        <test-method signature="shouldAnswerWithFalse()[pri:0, instance:hometask1.AppTest@2ed2d9cb]" started-at="2024-06-06T06:09:28 IST" name="shouldAnswerWithFalse" finished-at="2024-06-06T06:09:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithFalse -->
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:hometask1.AppTest@2ed2d9cb]" started-at="2024-06-06T06:09:28 IST" name="shouldAnswerWithTrue" finished-at="2024-06-06T06:09:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- hometask1.AppTest -->
+      <class name="hometask1.Testing">
+        <test-method signature="print()[pri:0, instance:hometask1.Testing@f5acb9d]" started-at="2024-06-06T06:09:28 IST" name="print" finished-at="2024-06-06T06:09:28 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+      </class> <!-- hometask1.Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
